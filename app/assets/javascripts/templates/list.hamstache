@@ -10,6 +10,11 @@
 %p
   %label Race Date:  Twenty Third Day - Friday June 1st
 
+%select#dropit
+  %option one
+  %option two
+  %option three
+
 %p
   %label Enter Numbers for tongue Tied
   %input(type = 'text' id = 'tt_numbers' name = 'total_gross')

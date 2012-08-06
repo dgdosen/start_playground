@@ -7,4 +7,4 @@
     %dd Post Position
     %dt {{percent_of_total}}
     %dd Tongue Tied
-    %input(type = 'checkbox' id = 'total_gross' name = 'total_gross')
+    %input(type = 'checkbox' id = 'tt_check' name = 'check_to')

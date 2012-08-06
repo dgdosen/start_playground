@@ -11,6 +11,8 @@ class App.Views.List extends App.CollectionView
   events: ->
     _.extend super,
       'click a.add': 'showAddMovie'
+      'blur #tt_numbers': 'showNumbers'
+      'change #dropit' : 'dropping'
 
   highlightNewView: (model, collection, options) ->
     @getView(model).$el.effect 'highlight', 'slow'
@@ -25,3 +27,10 @@ class App.Views.List extends App.CollectionView
   showAddMovie: (event) ->
     event.preventDefault()
     @addMovie.show()
+
+  showNumbers: (event) ->
+#    event.preventDefault()
+    alert 'showing numbers'
+
+  dropping: (event) ->
+    alert 'dropping'
