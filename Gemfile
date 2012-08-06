@@ -6,6 +6,8 @@ gem 'jquery-rails'
 gem 'sqlite3'
 gem 'capistrano'
 gem 'pg'
+gem 'doorkeeper'
+gem 'bcrypt-ruby'
 
   group :assets do
     gem 'coffee-rails', '~> 3.2.1'

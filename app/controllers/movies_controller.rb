@@ -14,7 +14,7 @@ class MoviesController < ApplicationController
 
   def populate
 
-    starts = Start.find_all_by_race_id 27
+    starts = Start.find_all_by_race_id 54
 
     Movie.delete_all
     #[
