@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  race: 
+  horse: 
+  trainer: 
+  jockey: 
+  owner: 
+  post_position: 1
+  program_number: MyString
+  is_scratched: false
+
+two:
+  race: 
+  horse: 
+  trainer: 
+  jockey: 
+  owner: 
+  post_position: 1
+  program_number: MyString
+  is_scratched: false

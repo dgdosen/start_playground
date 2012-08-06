@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  track: 
+  track_code: MyString
+  date: 2012-08-05
+  race_number: 1
+  day_evening_code: MyString
+  is_day: false
+
+two:
+  track: 
+  track_code: MyString
+  date: 2012-08-05
+  race_number: 1
+  day_evening_code: MyString
+  is_day: false

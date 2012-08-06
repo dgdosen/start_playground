@@ -1,0 +1,10 @@
+%li
+  %dl
+    %dd Horse
+    %dt.name
+      %a(href='')
+        {{name}}
+    %dd Post Position
+    %dt {{percent_of_total}}
+    %dd Tongue Tied
+    %input(type = 'checkbox' id = 'total_gross' name = 'total_gross')

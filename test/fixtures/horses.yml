@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  foreign_bred_code: MyString
+  bred_location_id: 1
+  state_bred_code: MyString
+  state_bred_location_id: 1
+  year_of_birth: 1
+
+two:
+  name: MyString
+  foreign_bred_code: MyString
+  bred_location_id: 1
+  state_bred_code: MyString
+  state_bred_location_id: 1
+  year_of_birth: 1

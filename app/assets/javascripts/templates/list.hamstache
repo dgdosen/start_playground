@@ -1,0 +1,24 @@
+%h1 Tongue Tied
+%a(href='' class='add')
+  EMD
+%a(href='' class='add')
+  SA
+%a(href='' class='add')
+  DEL
+%a(href='' class='add')
+  HP
+%p
+  %label Race Date:  Twenty Third Day - Friday June 1st
+
+%p
+  %label Enter Numbers for tongue Tied
+  %input(type = 'text' id = 'tt_numbers' name = 'total_gross')
+
+#new_movie
+%ul#movie_list
+
+%a(href='' class='add')
+  Add Start
+.populate
+  %a(href='/movies/populate')
+    Populate
