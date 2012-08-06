@@ -4,6 +4,9 @@ gem 'rails', '3.2.5'
 gem 'haml'
 gem 'jquery-rails'
 gem 'sqlite3'
+gem 'capistrano'
+gem 'pg'
+
   group :assets do
     gem 'coffee-rails', '~> 3.2.1'
   gem 'hogan_assets'
